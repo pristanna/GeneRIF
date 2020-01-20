@@ -1,6 +1,6 @@
 # GeneRIF
 
-This tool is useful when you need to find out what is a function of your genes of interest, when you have their gene symbols and want to use information from GeneRIF database. 
+This tool is useful when you need to find out what is a function of your genes of interest (in Humans), when you have their gene symbols and want to use information from GeneRIF database. 
 
 What is GeneRIF: https://www.ncbi.nlm.nih.gov/gene/about-generif -  GeneRIF provides a simple mechanism to allow scientists to add to the functional annotation of genes described in Gene 
 
