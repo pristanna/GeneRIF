@@ -16,7 +16,7 @@ Get Gene symbols
 
 ![Ensembl](img/ensembl.png)
 
-save as chr19_1-7mb.genesymbols.txt into filtering folder
+Save as chr19_1-7mb.genesymbols.txt into filtering folder
 
 Run the query:
 
