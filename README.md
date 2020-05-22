@@ -6,11 +6,24 @@ What is GeneRIF: https://www.ncbi.nlm.nih.gov/gene/about-generif -  GeneRIF prov
 
 Gene symbols and their alternatives - HGNC - https://www.genenames.org/
 
+### Install
+
+1) If you have git installed
+
+```
+git clone https://github.com/pristanna/GeneRIF.git
+```
+
+2) If you don´t have git installed
+
+simply download and unpack the ZIP file
+
 ### Downloading files
 
 At the beginning you will need to download GeneRIF and HGNC Gene symbols. Simply run this command:
 
 ```
+cd GeneRIF
 ./update.sh
 ```
 Also run this command whenewever you want to update the database
