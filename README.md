@@ -22,7 +22,7 @@ Set gene name as parameter 1, eg.
 ```
 ./filter_one_gene.sh DNAJC5
 ```
-Results will be saved in filtering folder as eg. filtering/DNAJC5.txt
+Results will be saved in filtering folder as eg. filtering/DNAJC5.results.txt
 
 
 ### Filter results for multiple gene symbol
@@ -32,7 +32,7 @@ Create a file in filtering folder - one gene symbol per line - and put the name 
 ./filter_multiple_genes.sh file_with_gene_names
 
 ```
-Results will be saved in filtering folder as eg. file_with_gene_names.results"
+Results will be saved in filtering folder as eg. file_with_gene_names.results.txt"
 
 #### Example usage
 
@@ -54,4 +54,4 @@ Run the query:
 filter_multiple_genes.sh chr19_1-7mb.genesymbols
 ```
 
-Find the results in filtering/chr19_1-7mb.genesymbols.results
+Find the results in filtering/chr19_1-7mb.genesymbols.results.txt
