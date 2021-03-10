@@ -23,10 +23,18 @@ simply download and unpack the ZIP file
 At the beginning you will need to download GeneRIF and HGNC Gene symbols. Simply run this command:
 
 ```
-cd GeneRIF
+cd GeneRIF 
+
+# if you are working on unix system, get rid of windows line endings
+dos2unix update.sh filter_multiple_genes.sh filter_one_gene.sh
+
+# make the scripts executable
+chmod u+x filter_multiple_genes.sh filter_one_gene.sh
+
+# update databse
 ./update.sh
 ```
-Also run this command whenewever you want to update the database
+Also run the ./update.sh whenewever you want to update the database
 
 ### Filter results for one gene symbol
 
